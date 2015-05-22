@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="description" content="description of your site">
+    <meta name="author" content="author of the site">
+    <title>/index.html</title><link rel='stylesheet' href='css/master.css' />
+  </head>
+  <body>
+    <div id="controls">
+      <p class="explanation">
+        <Upload>audio and magically have a muted video return to match it!  Perhaps you'll laugh, perhaps you'll find something cool.  Please select a .mp3 file as other file formats contain asbestos and will poison the server.</Upload>
+      </p>
+      <input id="uploadAudio" type="file">
+      <p> 
+        <Or>pick a random song from SoundCloud</Or>
+      </p>
+      <button id="randomSC">
+        <Choose>From SoundCloud</Choose>
+      </button>
+    </div>
+    <div id="media">
+      <div id="player"></div>
+      <audio id="audio"></audio>
+    </div>
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+    <script src="//apis.google.com/js/client.js"></script>
+    <script src="//www.youtube.com/player_api"></script><script src='js/vendor/jquery-1.11.3.min.js'></script>
+<script src='js/vendor/modernizr-2.8.3.min.js'></script>
+<script src='js/vendor/moment.min.js'></script>
+<script src='js/main.js'></script>
+  </body>
+</html>
